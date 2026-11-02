@@ -52,7 +52,7 @@ install_requires = [
     'torch>=1.10,<3',
     'torchvision>=0.10',
     'tqdm>=4.64.0,<5',
-    'transformers>=4.21.3,<5',
+    'transformers>=4.21.3,<6',
     'xxhash>=3.0.0,<4',
     'zstd>=1.5.2.5,<2',
     'oci>=2.88,<3',
@@ -83,7 +83,7 @@ extra_deps['dev'] = [
 ]
 
 extra_deps['docs'] = [
-    'GitPython==3.1.42',
+    'GitPython==3.2.1',
     'docutils==0.17.1',
     'furo==2022.9.29',
     'myst-parser==0.16.1',
